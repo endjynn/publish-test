@@ -1,0 +1,30 @@
+{
+  "name": "@endjynn/publish-test",
+  "version": "0.0.2",
+  "description": "Test npm publish project",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build" : "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/endjynn/publish-test.git"
+  },
+  "keywords": [
+    "publish",
+    "test"
+  ],
+  "author": "endjynn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/endjynn/publish-test/issues"
+  },
+  "homepage": "https://github.com/endjynn/publish-test#readme",
+  "devDependencies": {
+    "ts-node": "8.6.2",
+    "typescript": "3.8.3"
+  },
+  "publishConfig": {"access": "public"}
+}
