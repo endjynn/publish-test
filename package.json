@@ -1,11 +1,11 @@
 {
   "name": "@endjynn/publish-test",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Test npm publish project",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build" : "tsc",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,5 +26,7 @@
     "ts-node": "8.6.2",
     "typescript": "3.8.3"
   },
-  "publishConfig": {"access": "public"}
+  "publishConfig": {
+    "access": "public"
+  }
 }
